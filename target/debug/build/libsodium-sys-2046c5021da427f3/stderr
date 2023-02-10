@@ -1,0 +1,472 @@
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+In file included from crypto_sign/ed25519/ref10/obsolete.c:9:
+In file included from ./include/sodium/private/ed25519_ref10.h:23:
+./include/sodium/private/ed25519_ref10_fe_51.h:109:1: warning: unused function 'fe25519_cmov' [-Wunused-function]
+fe25519_cmov(fe25519 f, const fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:146:1: warning: unused function 'fe25519_cswap' [-Wunused-function]
+fe25519_cswap(fe25519 f, fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:243:1: warning: unused function 'fe25519_mul' [-Wunused-function]
+fe25519_mul(fe25519 h, const fe25519 f, const fe25519 g)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:334:1: warning: unused function 'fe25519_sq' [-Wunused-function]
+fe25519_sq(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:413:1: warning: unused function 'fe25519_sq2' [-Wunused-function]
+fe25519_sq2(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:493:1: warning: unused function 'fe25519_mul32' [-Wunused-function]
+fe25519_mul32(fe25519 h, const fe25519 f, uint32_t n)
+^
+6 warnings generated.
+crypto_pwhash/argon2/argon2-fill-block-ssse3.c:26:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse2")
+              ^
+crypto_pwhash/argon2/argon2-fill-block-ssse3.c:27:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("ssse3")
+              ^
+crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c:12:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse2")
+              ^
+crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c:13:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("ssse3")
+              ^
+crypto_generichash/blake2b/ref/blake2b-compress-sse41.c:16:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse2")
+              ^
+crypto_generichash/blake2b/ref/blake2b-compress-sse41.c:17:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("ssse3")
+              ^
+crypto_generichash/blake2b/ref/blake2b-compress-sse41.c:18:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse4.1")
+              ^
+crypto_pwhash/argon2/argon2-fill-block-avx2.c:27:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse2")
+              ^
+crypto_pwhash/argon2/argon2-fill-block-avx2.c:28:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("ssse3")
+              ^
+crypto_pwhash/argon2/argon2-fill-block-avx2.c:29:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse4.1")
+              ^
+crypto_pwhash/argon2/argon2-fill-block-avx2.c:30:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("avx2")
+              ^
+crypto_generichash/blake2b/ref/blake2b-compress-avx2.c:17:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse2")
+              ^
+crypto_generichash/blake2b/ref/blake2b-compress-avx2.c:18:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("ssse3")
+              ^
+crypto_generichash/blake2b/ref/blake2b-compress-avx2.c:19:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse4.1")
+              ^
+crypto_generichash/blake2b/ref/blake2b-compress-avx2.c:20:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("avx2")
+              ^
+crypto_pwhash/argon2/argon2-fill-block-ssse3.c:202:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning(push)
+        ^
+crypto_pwhash/argon2/argon2-fill-block-ssse3.c:203:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning(disable : 6385)
+        ^
+crypto_pwhash/argon2/argon2-fill-block-ssse3.c:205:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning(pop)
+        ^
+5 warnings generated.
+3 warnings generated.
+2 warnings generated.
+crypto_pwhash/argon2/argon2-fill-block-avx2.c:203:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning(push)
+        ^
+crypto_pwhash/argon2/argon2-fill-block-avx2.c:204:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning(disable : 6385)
+        ^
+crypto_pwhash/argon2/argon2-fill-block-avx2.c:206:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning(pop)
+        ^
+7 warnings generated.
+4 warnings generated.
+crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c:16:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse2")
+              ^
+crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c:17:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("ssse3")
+              ^
+crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c:18:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse4.1")
+              ^
+crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c:19:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("avx2")
+              ^
+crypto_pwhash/argon2/argon2-fill-block-avx512f.c:27:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse2")
+              ^
+crypto_pwhash/argon2/argon2-fill-block-avx512f.c:28:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("ssse3")
+              ^
+crypto_pwhash/argon2/argon2-fill-block-avx512f.c:29:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse4.1")
+              ^
+crypto_pwhash/argon2/argon2-fill-block-avx512f.c:30:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("avx2")
+              ^
+crypto_pwhash/argon2/argon2-fill-block-avx512f.c:31:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("avx512f")
+              ^
+crypto_pwhash/argon2/argon2-fill-block-avx512f.c:208:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning(push)
+        ^
+crypto_pwhash/argon2/argon2-fill-block-avx512f.c:209:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning(disable : 6385)
+        ^
+crypto_pwhash/argon2/argon2-fill-block-avx512f.c:211:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning(pop)
+        ^
+4 warnings generated.
+8 warnings generated.
+In file included from crypto_core/ed25519/ref10/ed25519_ref10.c:8:
+In file included from ./include/sodium/private/ed25519_ref10.h:23:
+./include/sodium/private/ed25519_ref10_fe_51.h:146:1: warning: unused function 'fe25519_cswap' [-Wunused-function]
+fe25519_cswap(fe25519 f, fe25519 g, unsigned int b)
+^
+crypto_core/ed25519/ref10/ed25519_ref10.c:513:1: warning: unused function 'ge25519_p3_to_precomp' [-Wunused-function]
+ge25519_p3_to_precomp(ge25519_precomp *pi, const ge25519_p3 *p)
+^
+2 warnings generated.
+In file included from crypto_pwhash/argon2/argon2-core.c:31:
+crypto_pwhash/argon2/argon2-core.h:139:17: warning: unused function 'index_alpha' [-Wunused-function]
+static uint32_t index_alpha(const argon2_instance_t *instance,
+                ^
+1 warning generated.
+In file included from crypto_pwhash/argon2/argon2-encoding.c:2:
+crypto_pwhash/argon2/argon2-core.h:139:17: warning: unused function 'index_alpha' [-Wunused-function]
+static uint32_t index_alpha(const argon2_instance_t *instance,
+                ^
+1 warning generated.
+crypto_pwhash/argon2/argon2-fill-block-ref.c:199:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning(push)
+        ^
+crypto_pwhash/argon2/argon2-fill-block-ref.c:200:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning(disable : 6385)
+        ^
+crypto_pwhash/argon2/argon2-fill-block-ref.c:202:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma warning(pop)
+        ^
+3 warnings generated.
+In file included from crypto_pwhash/argon2/argon2.c:22:
+crypto_pwhash/argon2/argon2-core.h:139:17: warning: unused function 'index_alpha' [-Wunused-function]
+static uint32_t index_alpha(const argon2_instance_t *instance,
+                ^
+1 warning generated.
+In file included from crypto_pwhash/argon2/pwhash_argon2i.c:9:
+crypto_pwhash/argon2/argon2-core.h:139:17: warning: unused function 'index_alpha' [-Wunused-function]
+static uint32_t index_alpha(const argon2_instance_t *instance,
+                ^
+In file included from crypto_pwhash/argon2/pwhash_argon2id.c:8:
+crypto_pwhash/argon2/argon2-core.h:139:17: warning: unused function 'index_alpha' [-Wunused-function]
+static uint32_t index_alpha(const argon2_instance_t *instance,
+                ^
+1 warning generated.
+1 warning generated.
+In file included from crypto_scalarmult/curve25519/ref10/x25519_ref10.c:7:
+In file included from ./include/sodium/private/ed25519_ref10.h:23:
+./include/sodium/private/ed25519_ref10_fe_51.h:109:1: warning: unused function 'fe25519_cmov' [-Wunused-function]
+fe25519_cmov(fe25519 f, const fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:413:1: warning: unused function 'fe25519_sq2' [-Wunused-function]
+fe25519_sq2(fe25519 h, const fe25519 f)
+^
+2 warnings generated.
+In file included from crypto_sign/ed25519/ref10/keypair.cIn file included from crypto_sign/ed25519/ref10/sign.c:7:
+In file included from :8:
+In file included from ./include/sodium/private/ed25519_ref10.h:23./include/sodium/private/ed25519_ref10.h:23:
+./include/sodium/private/ed25519_ref10_fe_51.h:109:1: :
+./include/sodium/private/ed25519_ref10_fe_51.h:109:1: warning: unused function 'fe25519_cmov' [-Wunused-function]
+warning: unused function 'fe25519_cmov' [-Wunused-function]
+fe25519_cmov(fe25519 f, const fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:146:1: warning: unused function 'fe25519_cswap' [-Wunused-function]
+fe25519_cswap(fe25519 f, fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:243:1: warning: unused function 'fe25519_mul' [-Wunused-function]
+fe25519_mul(fe25519 h, const fe25519 f, const fe25519 g)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:334:1: warning: unused function 'fe25519_sq' [-Wunused-function]
+fe25519_sq(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:413:1: warning: unused function 'fe25519_sq2' [-Wunused-function]
+fe25519_cmov(fe25519 f, const fe25519 g, unsigned int b)fe25519_sq2(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:493:1: warning: unused function 'fe25519_mul32' [-Wunused-function]
+
+fe25519_mul32(fe25519 h, const fe25519 f, uint32_t n)
+^
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:146:1: warning: unused function 'fe25519_cswap' [-Wunused-function]
+fe25519_cswap(fe25519 f, fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:334:1: warning: unused function 'fe25519_sq' [-Wunused-function]
+fe25519_sq(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:413:1: warning: unused function 'fe25519_sq2' [-Wunused-function]
+fe25519_sq2(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:493:1: warning: unused function 'fe25519_mul32' [-Wunused-function]
+fe25519_mul32(fe25519 h, const fe25519 f, uint32_t n)
+^
+In file included from crypto_sign/ed25519/ref10/open.c:10:
+In file included from ./include/sodium/private/ed25519_ref10.h:23:
+./include/sodium/private/ed25519_ref10_fe_51.h:109:1: warning: unused function 'fe25519_cmov' [-Wunused-function]
+fe25519_cmov(fe25519 f, const fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:146:1: warning: unused function 'fe25519_cswap' [-Wunused-function]
+fe25519_cswap(fe25519 f, fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:243:1: warning: unused function 'fe25519_mul' [-Wunused-function]
+fe25519_mul(fe25519 h, const fe25519 f, const fe25519 g)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:334:1: warning: unused function 'fe25519_sq' [-Wunused-function]
+fe25519_sq(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:413:1: warning: unused function 'fe25519_sq2' [-Wunused-function]
+fe25519_sq2(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:493:1: warning: unused function 'fe25519_mul32' [-Wunused-function]
+fe25519_mul32(fe25519 h, const fe25519 f, uint32_t n)
+^
+6 warnings generated.
+6 warnings generated.
+5 warnings generated.
+crypto_verify/sodium/verify.c:30:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse2")
+              ^
+1 warning generated.
+sodium/utils.c:364:14: warning: unused variable 't32' [-Wunused-variable]
+    uint32_t t32;
+             ^
+1 warning generated.
+In file included from crypto_core/ed25519/core_ed25519.c:6:
+In file included from ./include/sodium/private/ed25519_ref10.h:23:
+./include/sodium/private/ed25519_ref10_fe_51.h:109:1: warning: unused function 'fe25519_cmov' [-Wunused-function]
+fe25519_cmov(fe25519 f, const fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:146:1: warning: unused function 'fe25519_cswap' [-Wunused-function]
+fe25519_cswap(fe25519 f, fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:243:1: warning: unused function 'fe25519_mul' [-Wunused-function]
+fe25519_mul(fe25519 h, const fe25519 f, const fe25519 g)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:334:1: warning: unused function 'fe25519_sq' [-Wunused-function]
+fe25519_sq(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:413:1: warning: unused function 'fe25519_sq2' [-Wunused-function]
+fe25519_sq2(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:493:1: warning: unused function 'fe25519_mul32' [-Wunused-function]
+fe25519_mul32(fe25519 h, const fe25519 f, uint32_t n)
+^
+6 warnings generated.
+In file included from crypto_core/ed25519/core_ristretto255.c:7:
+In file included from ./include/sodium/private/ed25519_ref10.h:23:
+./include/sodium/private/ed25519_ref10_fe_51.h:109:1: warning: unused function 'fe25519_cmov' [-Wunused-function]
+fe25519_cmov(fe25519 f, const fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:146:1: warning: unused function 'fe25519_cswap' [-Wunused-function]
+fe25519_cswap(fe25519 f, fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:243:1: warning: unused function 'fe25519_mul' [-Wunused-function]
+fe25519_mul(fe25519 h, const fe25519 f, const fe25519 g)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:334:1: warning: unused function 'fe25519_sq' [-Wunused-function]
+fe25519_sq(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:413:1: warning: unused function 'fe25519_sq2' [-Wunused-function]
+fe25519_sq2(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:493:1: warning: unused function 'fe25519_mul32' [-Wunused-function]
+fe25519_mul32(fe25519 h, const fe25519 f, uint32_t n)
+^
+6 warnings generated.
+In file included from crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c:5:
+In file included from ./include/sodium/private/ed25519_ref10.h:23:
+./include/sodium/private/ed25519_ref10_fe_51.h:109:1: warning: unused function 'fe25519_cmov' [-Wunused-function]
+fe25519_cmov(fe25519 f, const fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:146:1: warning: unused function 'fe25519_cswap' [-Wunused-function]
+fe25519_cswap(fe25519 f, fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:243:1: warning: unused function 'fe25519_mul' [-Wunused-function]
+fe25519_mul(fe25519 h, const fe25519 f, const fe25519 g)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:334:1: warning: unused function 'fe25519_sq' [-Wunused-function]
+fe25519_sq(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:413:1: warning: unused function 'fe25519_sq2' [-Wunused-function]
+fe25519_sq2(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:493:1: warning: unused function 'fe25519_mul32' [-Wunused-function]
+fe25519_mul32(fe25519 h, const fe25519 f, uint32_t n)
+^
+6 warnings generated.
+In file included from crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c:6:
+In file included from ./include/sodium/private/ed25519_ref10.h:23:
+./include/sodium/private/ed25519_ref10_fe_51.h:109:1: warning: unused function 'fe25519_cmov' [-Wunused-function]
+fe25519_cmov(fe25519 f, const fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:146:1: warning: unused function 'fe25519_cswap' [-Wunused-function]
+fe25519_cswap(fe25519 f, fe25519 g, unsigned int b)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:243:1: warning: unused function 'fe25519_mul' [-Wunused-function]
+fe25519_mul(fe25519 h, const fe25519 f, const fe25519 g)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:334:1: warning: unused function 'fe25519_sq' [-Wunused-function]
+fe25519_sq(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:413:1: warning: unused function 'fe25519_sq2' [-Wunused-function]
+fe25519_sq2(fe25519 h, const fe25519 f)
+^
+./include/sodium/private/ed25519_ref10_fe_51.h:493:1: warning: unused function 'fe25519_mul32' [-Wunused-function]
+fe25519_mul32(fe25519 h, const fe25519 f, uint32_t n)
+^
+6 warnings generated.
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+crypto_aead/aes256gcm/aesni/aead_aes256gcm_aesni.c:25:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("ssse3")
+              ^
+crypto_aead/aes256gcm/aesni/aead_aes256gcm_aesni.c:26:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("aes")
+              ^
+crypto_aead/aes256gcm/aesni/aead_aes256gcm_aesni.c:27:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("pclmul")
+              ^
+crypto_onetimeauth/poly1305/sse2/poly1305_sse2.c:15:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse2")
+              ^
+crypto_pwhash/scryptsalsa208sha256/sse/pwhash_scryptsalsa208sha256_sse.c:43:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse2")
+              ^
+crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c:15:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse2")
+              ^
+crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c:16:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("ssse3")
+              ^
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+1 warning generated.
+2 warnings generated.
+3 warnings generated.
+1 warning generated.
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c:15:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse2")
+              ^
+crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c:16:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("ssse3")
+              ^
+crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c:17:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("sse4.1")
+              ^
+crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c:18:15: warning: unknown pragma ignored [-Wunknown-pragmas]
+#  pragma GCC target("avx2")
+              ^
+randombytes/internal/randombytes_internal_random.c:48:14: warning: unknown pragma ignored [-Wunknown-pragmas]
+# pragma GCC target("rdrnd")
+             ^
+randombytes/internal/randombytes_internal_random.c:317:1: warning: unused function 'safe_read' [-Wunused-function]
+safe_read(const int fd, void * const buf_, size_t size)
+^
+2 warnings generated.
+4 warnings generated.
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+scalarmult2.c:16:19: warning: unused variable 'i' [-Wunused-variable]
+    int           i;
+                  ^
+scalarmult5.c:22:19: warning: unused variable 'i' [-Wunused-variable]
+    int           i;
+                  ^
+1 warning generated.
+1 warning generated.
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]

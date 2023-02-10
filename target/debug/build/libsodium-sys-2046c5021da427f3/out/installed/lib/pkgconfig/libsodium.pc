@@ -1,0 +1,12 @@
+prefix=/Users/kaiju/Desktop/Coding/PiMnemonic/hello-rust/target/debug/build/libsodium-sys-2046c5021da427f3/out/installed
+exec_prefix=${prefix}
+libdir=/Users/kaiju/Desktop/Coding/PiMnemonic/hello-rust/target/debug/build/libsodium-sys-2046c5021da427f3/out/installed/lib
+includedir=${prefix}/include
+
+Name: libsodium
+Version: 1.0.18
+Description: A modern and easy-to-use crypto library
+
+Libs: -L${libdir} -lsodium
+Libs.private:  -pthread 
+Cflags: -I${includedir}
